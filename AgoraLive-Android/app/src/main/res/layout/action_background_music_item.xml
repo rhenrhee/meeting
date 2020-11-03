@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/live_room_bg_music_action_sheet_item_height"
     android:background="@drawable/action_sheet_list_item_bg_color">
+
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/live_room_action_sheet_bg_music_icon"
         android:layout_width="@dimen/live_room_bg_music_action_sheet_icon_size"
@@ -15,28 +16,31 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@id/live_room_action_sheet_bg_music_icon"
-        android:layout_centerVertical="true">
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/live_room_action_sheet_bg_music_icon">
+
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/live_room_action_sheet_bg_music_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/activity_vertical_margin"
-            android:textAlignment="gravity"
             android:gravity="center_vertical"
-            android:textSize="@dimen/text_size_medium"
-            android:textColor="@color/action_sheet_list_item_text_color_black"/>
+            android:textAlignment="gravity"
+            android:textColor="@color/action_sheet_list_item_text_color_black"
+            android:textSize="@dimen/text_size_medium" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/live_room_action_sheet_bg_music_artist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/activity_vertical_margin"
             android:layout_below="@id/live_room_action_sheet_bg_music_title"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
             android:layout_marginTop="@dimen/room_list_item_text_padding_small"
-            android:textAlignment="gravity"
             android:gravity="center_vertical"
-            android:textSize="@dimen/text_size_small"
-            android:textColor="@color/action_sheet_list_item_text_color_gray"/>
+            android:textAlignment="gravity"
+            android:textColor="@color/action_sheet_list_item_text_color_gray"
+            android:textSize="@dimen/text_size_small" />
+
     </RelativeLayout>
+
 </RelativeLayout>
