@@ -39,8 +39,8 @@ public class HomeFragment extends AbstractFragment implements View.OnClickListen
         view.findViewById(R.id.home_category_multi_layout).setOnClickListener(this);
         view.findViewById(R.id.home_category_single_layout).setOnClickListener(this);
         view.findViewById(R.id.home_category_pk_layout).setOnClickListener(this);
-        view.findViewById(R.id.home_category_virtual_host_layout).setOnClickListener(this);
-        view.findViewById(R.id.home_category_ecommerce_layout).setOnClickListener(this);
+        //view.findViewById(R.id.home_category_virtual_host_layout).setOnClickListener(this);
+        //view.findViewById(R.id.home_category_ecommerce_layout).setOnClickListener(this);
         return view;
     }
 
